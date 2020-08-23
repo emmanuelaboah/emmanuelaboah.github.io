@@ -263,23 +263,23 @@ input, select, textarea {
 	}
 
 		.container.xsmall {
-			width: 8.75em;
+			width: 12.75em;
 		}
 
 		.container.small {
-			width: 17.5em;
+			width: 20.5em;
 		}
 
 		.container.medium {
-			width: 26.25em;
+			width: 30.25em;
 		}
 
 		.container.large {
-			width: 43.75em;
+			width: 50.75em;
 		}
 
 		.container.xlarge {
-			width: 52.5em;
+			width: 60.5em;
 		}
 
 		.container.max {
@@ -289,7 +289,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.container {
-				width: 90% !important;
+				width: 80% !important;
 				max-width: 100% !important;
 			}
 
