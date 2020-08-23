@@ -263,23 +263,23 @@ input, select, textarea {
 	}
 
 		.container.xsmall {
-			width: 12.75em;
+			width: 8.75em;
 		}
 
 		.container.small {
-			width: 20.5em;
+			width: 17.5em;
 		}
 
 		.container.medium {
-			width: 30.25em;
+			width: 26.25em;
 		}
 
 		.container.large {
-			width: 50.75em;
+			width: 43.75em;
 		}
 
 		.container.xlarge {
-			width: 60.5em;
+			width: 52.5em;
 		}
 
 		.container.max {
