@@ -258,7 +258,7 @@ input, select, textarea {
 
 	.container {
 		margin: 0 auto;
-		max-width: calc(100% - 10em);
+		max-width: calc(100% - 4em);
 		width: 35em;
 	}
 
@@ -289,7 +289,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.container {
-				width: 80% !important;
+				width: 90% !important;
 				max-width: 100% !important;
 			}
 
