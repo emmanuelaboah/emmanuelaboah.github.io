@@ -152,7 +152,13 @@
 							<br>
 								Employed deep learning techniques for building facial recognition systems based on pertained HOG detector. Successfully developed facial recognition systems for the following:
 									<ul>
-									<li style="text-align:justify;">Detecting faces in images</li>
+									<li style="text-align:justify;"><b>Detecting faces in images</b></li>
+
+										<br>
+											The facial detection system takes an image as
+											input and detects all the faces in the image by drawing a bounding box around each face as shown below:
+								       <br>
+
 										<div class="box alt">
 											<div class="row gtr-uniform gtr-50">
 												<div class="col-12"><span class="image fit"><img src="images/pic13.jpg" alt="" /></span></div>
@@ -161,7 +167,15 @@
 
 											</div>
 
-									- Identifying facial landmarks eg. nose, eye, lips etc
+									<li style="text-align:justify;"><b>Identifying facial landmarks eg. nose, eye, lips etc</b></li>
+
+										<br>
+											The facial feature detection ( facial_feature_detection.py) identifies key facial features or
+										landmarks of an image.
+											It is able to identify facial features such as the chin, eye, eyebrow, nose lips etc. as shown below:
+
+								       <br>
+
 											<div class="box alt">
 											<div class="row gtr-uniform gtr-50">
 												<div class="col-12"><span class="image fit"><img src="images/pic14.jpg" alt="" /></span></div>
@@ -169,8 +183,27 @@
 											</div>
 
 											</div>
-									- Identifying a face from face encodings
-									- applying makeup on facial landmarks
+									<li style="text-align:justify;"><b>Identifying a face from face encodings</b></li>
+										<br>
+											The facial recognition system encodes images (faces) of known people
+											and then tries to identify whether an unknown image or face is found in
+											the database of known image encodings or not.
+
+											It takes an unknown image as input checks to see if there is a match between
+											the unknown face encoding and the known face encoding in the database.
+											It prints the name of the image (person) if there is a match, otherwise
+											it prints out "unknown".
+								       <br>
+
+									<li style="text-align:justify;"><b>applying makeup on facial landmarks</b></li>
+
+										<br>
+											The digital makeup system
+											applies a digital makeup of choice to key facial landmarks such as
+											lips, eyebrow etc. It takes an image of faces as input and loops through
+											the faces in the image to apply a digital makeup on facial landmark of choice as shown below:
+								       <br>
+
 										<div class="box alt">
 											<div class="row gtr-uniform gtr-50">
 												<div class="col-12"><span class="image fit"><img src="images/pic15.jpg" alt="" /></span></div>
@@ -179,7 +212,15 @@
 
 											</div>
 
-									- predicting the lookalike of an image from a database of collection of images
+									<li style="text-align:justify;"><b>predicting the lookalike of an image from a database of collection of images</b></li>
+
+											<br>
+											The celebrity lookalike script
+											implements a facial recognition system for predicting the lookalike of an
+											input image (face) from a database of known images.
+
+											For example: this script can be applied to checking your celebrity lookalike from a database of celebrities :)
+								       <br>
 
 									</ul>
 
