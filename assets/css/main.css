@@ -32,54 +32,6 @@ footer, header, hgroup, menu, nav, section {
 
 
 
-.floating-menu-btn {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    z-index: 1000;
-}
-
-.floating-menu-btn button {
-    background-color: rgba(255, 255, 255, 0.5);
-    border: none;
-    color: #000;
-    font-size: 24px;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.floating-menu-btn button:hover {
-    background-color: rgba(255, 255, 255, 0.8);
-}
-
-.floating-menu-content {
-    display: none;
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.8);
-    min-width: 150px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    border-radius: 5px;
-}
-
-.floating-menu-content a {
-    color: #000;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    font-weight: bold;
-}
-
-.floating-menu-content a:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-}
-
-
-
-
-
-
 body {
 	line-height: 1;
 }
