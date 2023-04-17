@@ -1218,10 +1218,17 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
     <!-- Add this script to handle the button click -->
     <script>
-        function goToHome() {
-            window.location.href = 'index.html'; // Replace 'index.html' with your homepage URL
-        }
-    </script>
+    function goToHome() {
+        window.location.href = 'index.html'; // Replace 'index.html' with your homepage URL
+    }
+
+    // Add this code to make the button work on mobile devices
+    document.getElementById('floating-home-btn').addEventListener('touchstart', function (event) {
+        event.preventDefault();
+        goToHome();
+    });
+</script>
+
 
 	</body>
 </html>
