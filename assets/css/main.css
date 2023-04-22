@@ -3327,3 +3327,18 @@ input, select, textarea {
 			}
 
 		}
+
+
+
+/* Profile */
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+}
+
