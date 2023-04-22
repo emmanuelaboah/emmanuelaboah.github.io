@@ -2835,6 +2835,7 @@ input, select, textarea {
 		#header .logo {
 			display: block;
 			border-bottom: 0;
+			right: 170px;
 			color: inherit;
 			font-weight: 900;
 			letter-spacing: 0.35em;
@@ -3332,13 +3333,12 @@ input, select, textarea {
 
 /* Profile */
 .profile-image {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  position: fixed;
-  top: 10px;
-  right: 10px;
-  z-index: 1000;
-}
-
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	z-index: 1000;
+  }
+  
