@@ -3331,13 +3331,24 @@ input, select, textarea {
 
 
 
-/* Profile */
+/* Profile 
 .profile-image {
 	width: 350px;
 	height: 350px;
 	object-fit: cover;
 	display: inline-block;
 	vertical-align: middle;
+  }
+*/
+  .profile-image {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
   }
   
   
