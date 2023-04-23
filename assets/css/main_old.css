@@ -2835,6 +2835,7 @@ input, select, textarea {
 		#header .logo {
 			display: block;
 			border-bottom: 0;
+			right: 170px;
 			color: inherit;
 			font-weight: 900;
 			letter-spacing: 0.35em;
@@ -3329,9 +3330,16 @@ input, select, textarea {
 		}
 
 
-
-
+/* Profile 
 .profile-image {
+	width: 350px;
+	height: 350px;
+	object-fit: cover;
+	display: inline-block;
+	vertical-align: middle;
+  }
+*/
+  .profile-image {
 	width: 100%;
 	height: auto;
 	object-fit: cover;
@@ -3341,3 +3349,5 @@ input, select, textarea {
 	left: 0;
 	z-index: -1;
   }
+  
+  
