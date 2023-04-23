@@ -3333,8 +3333,8 @@ input, select, textarea {
 
 /* Profile */
 .profile-image {
-	width: 150px;
-	height: 150px;
+	width: 350px;
+	height: 350px;
 	object-fit: cover;
 	display: inline-block;
 	vertical-align: middle;
