@@ -3329,22 +3329,9 @@ input, select, textarea {
 
 		}
 
-/* Wrapper */
-
-#wrapper2 > * > .inner2 {
-	width: 80%;
-	max-width: 80%;
-	margin: 0 auto;
-	padding: 0 2.5em;
+.custom-inner {
+  max-width: 80%; /* Adjust this value to your preference */
 }
-
-	@media screen and (max-width: 736px) {
-
-		#wrapper2 > * > .inner2 {
-			padding: 0 1.25em;
-		}
-
-	}
 
 
 
