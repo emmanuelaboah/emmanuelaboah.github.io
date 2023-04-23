@@ -3329,11 +3329,6 @@ input, select, textarea {
 
 		}
 
-.custom-inner {
-  max-width: 80%; /* Adjust this value to your preference */
-}
-
-
 
 /* Profile 
 .profile-image {
@@ -3355,4 +3350,8 @@ input, select, textarea {
 	z-index: -1;
   }
   
+  
+  .content-width {
+	max-width: 50%; /* Adjust this value to your preference */
+  }
   
