@@ -3336,9 +3336,8 @@ input, select, textarea {
 	width: 150px;
 	height: 150px;
 	object-fit: cover;
-	position: fixed;
-	top: 50px;
-	left: 50px;
-	z-index: 1000;
+	display: inline-block;
+	vertical-align: middle;
   }
+  
   
