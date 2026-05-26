@@ -2,6 +2,13 @@
 .company-name {
 	color: #0070f3;
 	text-decoration: underline dotted;
+	text-underline-offset: 3px;
+}
+.company-name:link,
+.company-name:visited,
+.company-name:hover,
+.company-name:active {
+	text-decoration: underline dotted;
 }
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
